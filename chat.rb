@@ -8,11 +8,13 @@ chat = ['welcome..']
 get('/') { erb :index }
 
 get '/send' do
+  return [404, {}, "Not an ajax request"] unless request.xhr?
   chat << "#{request.ip} : #{params['text']}"
   nil
 end
 
 get '/update' do
+  return [404, {}, "Not an ajax request"] unless request.xhr?
   @updates = chat[params['last'].to_i..-1] || []
 
   @last = chat.size
@@ -23,3 +25,4 @@ get '/update' do
       <span data-last="<%= @last %>"></span>
   HTML
 end
+
