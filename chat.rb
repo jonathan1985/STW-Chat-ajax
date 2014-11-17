@@ -6,7 +6,7 @@ require 'sinatra/reloader' if development?
 enable :sessions
 set :session_secret, '*&(^#234a)'
 
-chat = ['welcome..']
+chat = ['Bienvenido..']
 user = Array.new()
 
 get '/' do
@@ -79,7 +79,7 @@ get '/chat/update' do
             </span>
                 <div class="chat-body clearfix">
                     <div class="header">
-                        <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                        <strong class="primary-font">FC Barcelona</strong> <small class="pull-right text-muted">
                             <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
                     </div>
                     <p>
