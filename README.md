@@ -30,7 +30,7 @@ Estos enlaces pueden ser de ayuda:
 ## Enlaces
 
 
-### Heroku: [ACCEDER](https://desolate-shelf-1169.herokuapp.com/)
+### Heroku: [ACCEDER]()
 ### Coveralls: [ACCEDER]()
 ### Travis: [ACCEDER]()
 
@@ -38,5 +38,5 @@ Estos enlaces pueden ser de ayuda:
 
 ## Autores
 
-### Jhoanmary Prz Fariña
-### Santiago Sainz Fernández
+### Daniel Nicolás Fernández del Castillo Salazar
+### Jonathan Barrera Delgado
