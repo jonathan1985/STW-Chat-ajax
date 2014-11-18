@@ -6,7 +6,7 @@ require 'sinatra/reloader' if development?
 enable :sessions
 set :session_secret, '*&(^#234a)'
 
-chat = ['welcome..']
+chat = ['Bienvenidos..']
 
 user = Array.new()
 
