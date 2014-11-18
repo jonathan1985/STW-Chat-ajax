@@ -22,8 +22,11 @@ GEM
     docile (1.1.5)
     eventmachine (1.0.3)
     ffi (1.9.6)
+    haml (4.0.5)
+      tilt
     mime-types (2.4.3)
     mini_portile (0.6.1)
+    minitest (5.4.3)
     multi_json (1.10.1)
     nokogiri (1.6.4.1)
       mini_portile (~> 0.6.0)
@@ -93,6 +96,8 @@ PLATFORMS
 
 DEPENDENCIES
   coveralls
+  haml
+  minitest
   poltergeist
   rack-test
   rake
