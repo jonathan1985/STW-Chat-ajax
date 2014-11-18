@@ -520,7 +520,7 @@ to {
   margin-right: auto;
   margin-left: auto;
   background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 39%, rgba(216,225,231,1) 73%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
-  color: black;
+  color: blue;
   text-align :center;
   font-size: 60px;
 }
