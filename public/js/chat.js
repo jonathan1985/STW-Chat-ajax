@@ -11,9 +11,9 @@ $('#text').keypress(
   var last = 0;
   setInterval(
     function(){
-      $.get('/update',{last:last},
+      $.get('/chat/update',{last:last},
         function(response){
-          last = $('<p>').html(response).find('span').data('last');
+          last = $($.parseHTML(response)).filter("#last").data('last');
           $('#chat').append(response);
         }
       );
