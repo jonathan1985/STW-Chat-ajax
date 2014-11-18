@@ -1,5 +1,7 @@
 require 'capybara'
 include Capybara::DSL
+require 'coveralls'
+Coveralls.wear!
 
 Capybara.default_driver = :selenium
 
