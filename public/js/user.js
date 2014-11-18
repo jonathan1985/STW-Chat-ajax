@@ -1,5 +1,5 @@
 (function() {
-  setInterval(
+   setInterval(
     function(){
       $.get('/user',
         function(response){
@@ -9,3 +9,4 @@
     },
   1000);
 })();
+

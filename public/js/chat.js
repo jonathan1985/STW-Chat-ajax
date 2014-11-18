@@ -7,13 +7,21 @@ $('#text').keypress(
   }
 );
 
+$('#enviar').click(
+   function(){
+	  $.get('/send',{text:$('#text').val()});
+	  $('#text').val('');
+   }
+);
+
+
 (function() {
   var last = 0;
   setInterval(
     function(){
-      $.get('/chat/update',{last:last},
+      $.get('/update',{last:last},
         function(response){
-          last = $($.parseHTML(response)).filter("#last").data('last');
+          last = $('<p>').html(response).find('span').data('last');
           $('#chat').append(response);
         }
       );
