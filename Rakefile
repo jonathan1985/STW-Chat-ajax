@@ -3,17 +3,17 @@ task :default => :test
 
 desc "Run Server"
   task :rackup do
-	sh "rackup"
+	   sh "rackup"
   end
   
 desc "run the chat server"
 task :server do
-  sh "bundle exec ruby chat.rb"
+    sh "bundle exec ruby chat.rb"
 end  
   
 desc "Test (default)" 
   task :tests => :spec do
-	sh "ruby test/test.rb"
+	     sh "ruby test/test.rb"
   end
 
 desc "make a non Ajax request via curl"
