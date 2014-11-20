@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    backports (3.6.3)
+    backports (3.6.4)
     capybara (2.4.4)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -20,12 +20,18 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     eventmachine (1.0.3)
+    eventmachine (1.0.3-x86-mingw32)
     ffi (1.9.6)
+    ffi (1.9.6-x86-mingw32)
     mime-types (2.4.3)
     mini_portile (0.6.1)
+    minitest (5.4.3)
     multi_json (1.10.1)
     nokogiri (1.6.4.1)
       mini_portile (~> 0.6.0)
+    nokogiri (1.6.4.1-x86-mingw32)
+      mini_portile (~> 0.6.0)
+    power_assert (0.2.1)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -69,6 +75,8 @@ GEM
       tilt (~> 1.3)
     term-ansicolor (1.2.2)
       tins (~> 0.8)
+    test-unit (3.0.7)
+      power_assert
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
