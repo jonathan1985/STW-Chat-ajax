@@ -86,8 +86,12 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coveralls
+  minitest
+  rack-test
+  rake
   rspec
   selenium-webdriver
   sinatra
   sinatra-contrib
+  test-unit
   thin
