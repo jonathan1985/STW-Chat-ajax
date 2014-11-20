@@ -59,7 +59,8 @@ end
 
 get '/send' do
   return [404, {}, "Not an ajax request"] unless request.xhr?
-  chat << "#{session[:name]} : #{params['text']}"
+  t = Time.now
+  chat << "#{session[:name]} [#{t.strftime("%d/%m/%Y %H:%M:%S")}] : #{params['text']}"
   nil
 end
 
