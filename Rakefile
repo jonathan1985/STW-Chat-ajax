@@ -11,10 +11,9 @@ task :server do
   sh "bundle exec ruby chat.rb"
 end  
   
-  
-desc "Test" 
-  task :test do
-	sh "ruby spec/tests.rb"
+desc "Test (default)" 
+  task :tests => :spec do
+	sh "ruby test/test.rb"
   end
 
 desc "make a non Ajax request via curl"
@@ -40,4 +39,9 @@ end
 desc "Open repository"
 task :repo do
   sh "gnome-open https://github.com/jonathan1985/STW-Chat-ajax.git"
+end
+
+desc "run specs"
+task :spec do
+  sh "bundle exec rspec spec/spec.rb"
 end
