@@ -34,7 +34,7 @@ describe "Testing Chat App" do
     
     it "2. Should see home page" do
        item = @browser.find_element(:id,"loginp").text
-       assert_equal("Chat - Sistemas Web", item)
+       assert_equal("Práctica 6 - Chat", item)
     end
     
     it "3. Should login with a nick" do
@@ -71,4 +71,5 @@ describe "Testing Chat App" do
        assert_equal(true, @browser.find_element(:id,"SignIn").displayed?)
     end
  end
+ 
  
