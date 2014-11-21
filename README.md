@@ -35,7 +35,7 @@ Estos enlaces pueden ser de ayuda:
 
 ### Coveralls:[![Coverage Status](https://img.shields.io/coveralls/jonathan1985/STW-Chat-ajax.svg)](https://coveralls.io/r/jonathan1985/STW-Chat-ajax)
 
-### Travis: [ACCEDER](https://travis-ci.org/jonathan1985/STW-Chat-ajax.svg?branch=master) 
+### Travis: [ACCEDER](https://travis-ci.org/jonathan1985/STW-Chat-ajax) 
 
 -------------------------------------
 
