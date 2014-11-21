@@ -13,7 +13,8 @@
 
 body{
 	font-family:'Open Sans',Arial,sans-serif;
-	background:#FFF;
+	background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 39%, rgba(216,225,231,1) 73%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+	##background:#FFF;
 	font-weight:300;
 	height:100%;
 	margin:0;
@@ -113,7 +114,7 @@ a:hover,a:focus{color:#5173bd;}
 	text-align:center;
 	text-shadow:0 1px 0 rgba(0,0,0,.1);
 	background-color:#6883cc;
-	background-image:url("../images/header.png");
+	background-image:url("../images/header1.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-attachment:fixed;
@@ -484,7 +485,7 @@ to {
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
 	background-color: #6883cc;
-	background-image:url("../images/header.png");
+	background-image:url("../images/header1.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -513,14 +514,15 @@ to {
 
 .espacio {
   margin-top:30px;
+  background-image:url("../images/header2.png");
   height:100px;
   padding-top:10px;
   padding-right: 10px;
   padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
-  background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 39%, rgba(216,225,231,1) 73%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
-  color: black;
+  ##background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 39%, rgba(216,225,231,1) 73%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+  color: blue;
   text-align :center;
   font-size: 60px;
 }
@@ -528,7 +530,6 @@ to {
 .chateando {
   
   width: 600px;
-  height: 400px;
   margin-top:50px;
   padding-top:10px;
   padding-right: 10px;
@@ -537,17 +538,14 @@ to {
   margin-left: auto;
   background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 39%, rgba(216,225,231,1) 73%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
   color: black;
-  overflow-x: scroll;
-  overflow-y: scroll;
   
 }
 
 .usuarios {
   
   width: 350px;
-  height: 400px;
+  width: 400px;
   margin-top:50px;
-  padding-top:5px;
   padding-right: 10px;
   padding-left: 10px;
   margin-right: auto;
@@ -555,7 +553,6 @@ to {
   background: linear-gradient(to right, rgba(147,206,222,1) 2%, rgba(147,206,222,1) 8%, rgba(73,165,191,1) 38%, rgba(117,189,209,1) 86%, rgba(117,189,209,1) 100%);
   color: white;
   text-align:center;
-  overflow-y: scroll;
   
 }
 
@@ -575,26 +572,11 @@ to {
 }
 
 .borde{
- border-radius:5px; 
+ border-radius:20px; 
  border:solid;
  border-color:#5882FA;
   
 }
-
-.chateando1 {
-  
-  width: 600px;
-  height: 170px;
-  margin-top:50px;
-  padding-right: 10px;
-  padding-left: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 39%, rgba(216,225,231,1) 73%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
-  color: black;
-  
-}
-
 
 
 
