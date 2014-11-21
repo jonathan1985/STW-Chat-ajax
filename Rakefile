@@ -1,16 +1,15 @@
 task :default => :server
 
-
 desc "Run Server"
   task :rackup do
-	   sh "rackup"
+	sh "rackup"
   end
   
 desc "run the chat server"
 task :server do
-    sh "bundle exec ruby chat.rb"
+  sh "bundle exec ruby chat.rb"
 end  
-  
+
 desc "Test" 
   task :test => :spec do
 	     sh "ruby test/test.rb"
@@ -28,17 +27,17 @@ end
 
 desc "Visit the GitHub repo page"
 task :open do
-  sh "open https://github.com/jonathan1985/STW-Chat-ajax.git"
+  sh "open https://github.com/Michelle9/SYTW_P6.git"
 end
 
 desc "Run tests in local machine"
 task :local_tests do
-   sh "gnome-terminal -x sh -c 'rackup' && sh -c 'ruby spec/tests.rb local'"
+   sh "gnome-terminal -x sh -c 'rackup' && sh -c 'ruby test/test.rb local'"
 end
 
 desc "Open repository"
 task :repo do
-  sh "gnome-open https://github.com/jonathan1985/STW-Chat-ajax.git"
+  sh "gnome-open https://github.com/Michelle9/SYTW_P6.git"
 end
 
 desc "run specs"

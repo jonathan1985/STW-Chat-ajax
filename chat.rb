@@ -6,18 +6,19 @@ require 'sinatra/reloader' if development?
 enable :sessions
 set :session_secret, '*&(^#234a)'
 
-chat = ['Bienvenidos..']
+chat = ['welcome..']
 
 user = Array.new()
+
 
 #/************************************/
 
 get '/' do
 
   if !session[:name]
-	     erb :login
+	erb :login
   else
-	     erb :chat
+	erb :chat
   end  
 end
 
@@ -34,13 +35,13 @@ end
 
 post '/' do
   if (user.include?(params[:username]))
-	     redirect '/'
+	redirect '/'
   else
-	     name = params[:username]
-	     session[:name] = name
-	     user << name
-	     puts user
-	     erb :chat
+	name = params[:username]
+	session[:name] = name
+	user << name
+	puts user
+	erb :chat
   end
   #session[:name] = params[:username]
   #erb :index
@@ -48,7 +49,7 @@ end
 
 #/************************************/
 
-get '/logout' do  
+get '/logout' do 
   user.delete(session[:name])
   session.clear
   redirect '/'  
