@@ -2,16 +2,19 @@ source 'https://rubygems.org'
 
 gem 'thin'
 gem 'sinatra'
-gem 'sinatra-contrib'
-gem 'haml'
 
-group :test, :development do
-   gem 'rspec'
-   gem 'rack-test'
-   gem 'rake'
-   gem 'minitest'
-   gem 'test-unit'
-   gem 'selenium-webdriver','2.43.0'
-   gem 'coveralls', require: false
+group :test do
+  gem 'rack-test'
+  gem 'rake'
+  gem 'minitest'
+  gem 'test-unit'
+  gem 'rspec'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'coveralls', require: false
+end
+
+group :development do
+  gem 'sinatra-contrib'
 end
 
