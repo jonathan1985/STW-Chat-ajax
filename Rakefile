@@ -27,7 +27,7 @@ end
 
 desc "Visit the GitHub repo page"
 task :open do
-  sh "open https://github.com/Michelle9/SYTW_P6.git"
+  sh "open https://github.com/jonathan1985/STW-Chat-ajax.git"
 end
 
 desc "Run tests in local machine"
@@ -37,7 +37,7 @@ end
 
 desc "Open repository"
 task :repo do
-  sh "gnome-open https://github.com/Michelle9/SYTW_P6.git"
+  sh "gnome-open https://github.com/jonathan1985/STW-Chat-ajax.git"
 end
 
 desc "run specs"
