@@ -30,9 +30,9 @@ Estos enlaces pueden ser de ayuda:
 ## Enlaces
 
 
-### Heroku: [ACCEDER]()
-### Coveralls: [ACCEDER]()
-### Travis: [ACCEDER]()
+### Heroku: [ACCEDER](https://chat-ajax.herokuapp.com/)
+### Coveralls: [ACCEDER](https://coveralls.io/r/jonathan1985/STW-Chat-ajax) [![Coverage Status](https://img.shields.io/coveralls/jonathan1985/STW-Chat-ajax.svg)](https://coveralls.io/r/jonathan1985/STW-Chat-ajax)
+### Travis: [ACCEDER](https://travis-ci.org/jonathan1985/STW-Chat-ajax) https://travis-ci.org/jonathan1985/STW-Chat-ajax.svg?branch=master
 
 -------------------------------------
 
